@@ -1,0 +1,21 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+void main()
+{
+    int you,date;
+    printf("enter the ratg of you date\n");
+    scanf("%d %d",&you,&date);
+    if(you<=2||date<=2)
+    {
+        printf("0");
+    }
+    else if(you>=8||date<=8)
+    {
+        printf("2");
+    }
+    else
+    {
+        printf("1");
+    }
+}
+    
